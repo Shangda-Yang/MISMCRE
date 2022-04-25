@@ -1,3 +1,11 @@
+% ------------------------------------------------------ %
+% function [v]  = pde_solver(x,l,uni)
+% inputs:   x   = interpolation points
+%           l   = level of refinement
+%           uni = random input
+% outputs:  v   = solution at corresponding points
+% ------------------------------------------------------ %
+
 function [v] = pde_solver(x,l,uni)
 if l == 0
    

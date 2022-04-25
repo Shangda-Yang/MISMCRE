@@ -1,4 +1,10 @@
+% ------------------------------------------------------ %
+% function [u_vector] = FEM_u(l,uni)
 % finite-element u_vector of Au = f
+% inputs:   l         = level of refinement
+%           uni       = random input   
+% outputs:  u_vector  = FEM grid solutions
+% ------------------------------------------------------ %
 function [u_vector] = FEM_u(l,uni)    
     
     h = 2^-l;
