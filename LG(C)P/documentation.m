@@ -1,7 +1,10 @@
 % ----------------------------------------------------------------------- %
-% Results are computated for the log-Gaussian Cox process:
-%   For detailed explanation for the process, please refer to the paper.
-%   Parameters: (\theta_1, \theta_2, \theta_3) = (0, 1, 110.339)
+% For detailed explanation for the process, please refer to the paper.
+% Results are computated 
+%   1. for the log-Gaussian Cox process:
+%      Parameters: (\theta_1, \theta_2, \theta_3) = (0, 1, 110.339)
+%   2. for the log-Gaussian process:
+%      Parameters: (\theta_1, \theta_2, \theta_3) =  (0, 1, 27.585)
 % ----------------------------------------------------------------------- %
 
 % ----------------------------------------------------------------------- %
