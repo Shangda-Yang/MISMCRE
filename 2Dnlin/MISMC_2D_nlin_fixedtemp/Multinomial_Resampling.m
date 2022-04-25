@@ -1,9 +1,9 @@
-% ---------------------------------------------------------%
+% ----------------------------------------------------------%
 % function A = Multinomial_Resampling(w)
 % Multinomial_Resampling is used for resampling
-% input:  W = weights of samples
-% output: A = sample indices with categorical distribution
-% ---------------------------------------------------------%
+% input:   W = weights of samples
+% output:  A = sample indices with categorical distribution
+% ----------------------------------------------------------%
 function A = Multinomial_Resampling(W)
     
     N = length(W);

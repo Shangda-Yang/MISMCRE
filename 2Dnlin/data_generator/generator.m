@@ -5,7 +5,7 @@ randn('seed',20)
 rand('seed',20)
 
 sigma  = 0.5;
-eps = 1e-4;
+eps = 1e-10;
 % observation points
 x_data = [0.25, 0.25; 0.25, 0.75; 0.75, 0.25; 0.75, 0.75];
 % % generate data
