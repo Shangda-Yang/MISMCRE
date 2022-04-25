@@ -2,6 +2,8 @@
 
 This contains the implementation for the examples in the paper "Multi-index sequential Monte Carlo ratio estimators for Bayesian inverse problems" (https://arxiv.org/abs/2203.05351).
 
+Examples include 1D Elliptic PDE with random force, 2D Elliptic PDE with random diffusion coefficient, log-Gaussian Cox process and log-Gaussian process.
+
 Before carrying on the test, please take a look in the documentation.m files for each example.
 
 ### Reference：
