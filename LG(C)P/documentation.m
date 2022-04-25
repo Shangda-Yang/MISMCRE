@@ -8,12 +8,15 @@
 % ----------------------------------------------------------------------- %
 
 % ----------------------------------------------------------------------- %
-% Create a folder workingdatar
+% Create a folder workingdata
+%
 % first time --> run solutions.m first for data and reference solution
 %            --> run emperical test before run complesity test
+%
 % For MISMC:
 %    miregularity.m for emperical mean and var
 %    micomplexity.m for complexity test
+%
 % For MLSMC:
 %   mlregularity.m for emperical mean and var
 %   mlcomplexity.m for complexity test
