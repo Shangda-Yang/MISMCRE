@@ -8,4 +8,4 @@ Before carrying on the test, please take a look in the documentation.m files for
 
 For 1D example, MLSMC codes are structured based on the MLMC work by Prof. Mike Giles (http://people.maths.ox.ac.uk/~gilesm/mlmc/#MATLAB).
 
-The 2D PDE solver is modified based on the T-IFISS toolbox by Prof. David Silvester, Prof. Howard Elman and Prof. Dr Alison Ramage (https://personalpages.manchester.ac.uk/staff/david.silvester/ifiss/default.htm). 
+The 2D PDE solver is modified based on the T-IFISS toolbox by Prof. David Silvester, Prof. Howard Elman and Dr. Alison Ramage (https://personalpages.manchester.ac.uk/staff/david.silvester/ifiss/default.htm). 
