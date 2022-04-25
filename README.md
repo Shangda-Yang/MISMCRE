@@ -2,7 +2,7 @@
 
 This contains the implementation for the examples in the paper "Multi-index sequential Monte Carlo ratio estimators for Bayesian inverse problems" (https://arxiv.org/abs/2203.05351).
 
-Reference：
+###Reference：
 
 For 1D example, MLSMC codes are structured based on the MLMC work by Prof. Mike Giles (http://people.maths.ox.ac.uk/~gilesm/mlmc/#MATLAB).
 
