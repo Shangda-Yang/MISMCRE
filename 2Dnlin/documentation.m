@@ -10,13 +10,19 @@
 % ----------------------------------------------------------------------- %
 
 % ----------------------------------------------------------------------- %
-% run data_generator --> generator.m first for data and reference solution
-% first time --> run emperical test before run complesity test
+% Please create a results before carrying on tests.
+%
+% Run data_generator --> generator.m first for data and reference solution
+%
+% First time --> run emperical test before run complesity test
+%
 % For MISMC:
 %   MISMC_2D_nlin_fixedtemp --> emperical_test.m for emperical mean and var
 %                           --> complexity_test.m for complexity test
+%
 % For SLSMC:
 %   MISMC_2D_nlin_fixedtemp --> smc_test.m for complexity test
+%
 % For MLSMC:
 %   MLSMC_2D_nlin --> mlsmc_emperical.m for emperical mean and var
 %                 --> complexity_test.m for complexity test
