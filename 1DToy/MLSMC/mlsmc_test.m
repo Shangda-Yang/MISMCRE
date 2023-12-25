@@ -1,15 +1,16 @@
 % --------------------------------------------------------- %
-% function mlmc_test(mlmc_l, N, L, Eps, fp, theta, data)
+% function mlsmc_test(mlsmc_l, N, L, Eps, fp, sigma, data, x_data)
 %
 % multilevel Monte Carlo test routine
 %
-% mlmc_l   = function for level l estimator
+% mlsmc_l  = function for level l estimator
 % N        = number of samples for convergence tests
 % L        = number of levels for convergence tests
 % Eps      = desired accuracy array for MLMC calcs
 % fp       = file handle for printing to file
 % sigma    = std deviation of the error of y - G
 % data     = observations
+% x_data   = points corresponding to observations
 % --------------------------------------------------------- %
 function mlsmc_test(mlsmc_l, N, L, Eps, fp, sigma, data, x_data)
 
