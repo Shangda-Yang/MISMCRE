@@ -1,5 +1,5 @@
 % ------------------------------------------------------- %
-% [single_app] = MCMC(l,N,theta,data,x_data)
+% [single_app,cost] = MCMC(l,N,theta,data,x_data)
 % Single level MCMC
 % inputs:  l      = level
 %          N      = number of paths
