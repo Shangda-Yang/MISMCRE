@@ -1,5 +1,5 @@
 % --------------------------------------------------------- %
-% function mlmcmc_test(mlmc_l, N, L, Eps, fp, theta, data)
+% function mlmcmc_test(mlmcmc_l, N, L, Eps, fp, sigma, data, x_data)
 %
 % multilevel Markov Chain Monte Carlo test routine
 %
@@ -10,6 +10,7 @@
 % fp       = file handle for printing to file
 % sigma    = std deviation of the error of y - G
 % data     = observations
+% x_data   = points corresponding to observations
 % --------------------------------------------------------- %
 function mlmcmc_test(mlmcmc_l, N, L, Eps, fp, sigma, data, x_data)
 
