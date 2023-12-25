@@ -15,20 +15,16 @@ SMC(@opre_SMC,Eps,sigma,data,x_data);
 toc;
 
 % ------------------------------------------------------------------ %
-% [sums, cost] = opre_MLSMC_l(lx,ly,N,sigma,data,x_data,k)    
-% single level routine
+% [sums, cost] = opre_SMC(l,N,sigma,data,x_data)   
+% SMC routine
 %
-% inputs:  lx     = level x
-%          ly     = level y
+% inputs:  l      = level of refinment
 %          N      = number of samples
 %          sigma  = std deviation of the error of y - G
 %          data   = observations
 %          x_data = corresponding points of observations
-%          k      = actual starting refinement level
 %
-% output:  sums(1) = normalised difference
-%          sums(2) = difference unnormalised integral
-%          sums(3) = difference normalising constant
+% output:  sums    = quantity of interests
 %          cost    = computational cost
 % ------------------------------------------------------------------ %
 function [sums, cost] = opre_SMC(l,N,sigma,data,x_data)
