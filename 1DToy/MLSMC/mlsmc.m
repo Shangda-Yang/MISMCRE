@@ -1,14 +1,15 @@
 % ------------------------------------------------------------ %
-% function [P, Cl] = mlmc(mlmc_l,eps,L,N_l,theta,data)
+% function [P, Cl] = mlsmc(mlsmc_l,eps,L,N_l,sigma,data,x_data)
 % multi-level Monte Carlo estimation
-% inputs:  mlmc_l = function for level l estimator
-%          eps    = desired accuracy (rms error)           > 0
-%          L      = number of levels for convergence tests > 0
-%          N_l    = number of samples at different levels  > 0
-%          sigma  = std deviation of the error of y - G
-%          data   = observations
-% outputs: P      = E[quantity of interest]
-%          cost   = total cost
+% inputs:  mlsmc_l = function for level l estimator
+%          eps     = desired accuracy (rms error)           > 0
+%          L       = number of levels for convergence tests > 0
+%          N_l     = number of samples at different levels  > 0
+%          sigma   = std deviation of the error of y - G
+%          data    = observations
+%          x_data  = points corresponding to observations
+% outputs: P       = E[quantity of interest]
+%          cost    = total cost
 % ------------------------------------------------------------ %
 function [P, Cl] = mlsmc(mlsmc_l,eps,L,N_l,sigma,data,x_data)
 
