@@ -1,5 +1,5 @@
 % ------------------------------------------------------------------ %
-% function mismc_emperical(mimc_l,N, Lx, Ly,sigma,data,x_data)
+% function mismc_emperical(mimc_l,N, Lx, Ly,sigma,data,x_data,K)
 %
 % multi-index Monte Carlo assumption test routine
 % and emperical mean and variance calculation
@@ -11,6 +11,7 @@
 %         sigma    = std deviation of the error of y - G
 %         data     = observations (values of y)
 %         x_data   = corresponding observation points
+%         K        = actual starting refinement level
 % .mat:   we1      = difference with self-normalised increments estimator
 %         we2      = difference unnormalised integral
 %         we3      = difference normalising constant
