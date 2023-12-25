@@ -1,6 +1,6 @@
 # Multi-index sequential Monte Carlo ratio estimators for Bayesian inverse problems
 
-This contains the implementation for the examples in the paper "Multi-index sequential Monte Carlo ratio estimators for Bayesian inverse problems" (https://arxiv.org/abs/2203.05351).
+This contains the implementation for the examples in the paper Jasra, A., Law, K.J.H., Walton, N. and Yang, S.. Multi-index Sequential Monte Carlo Ratio Estimators for Bayesian Inverse problems. Found Comput Math (2023). https://doi.org/10.1007/s10208-023-09612-z.
 
 Examples include 1D Elliptic PDE with random force, 2D Elliptic PDE with random diffusion coefficient, log-Gaussian Cox process and log-Gaussian process.
 
