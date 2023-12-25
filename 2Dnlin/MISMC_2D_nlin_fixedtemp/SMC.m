@@ -1,21 +1,18 @@
 % ------------------------------------------------------------------ %
-% function mismc_complexity(mismc_l,Eps,sigma,data,x_data,k,setType)
+% function SMC(SMCL,Eps,sigma,data,x_data)
 %
-% multi-index Monte Carlo complexity test routine
+% SMC test routine
 %
-% input:  mlmc_l   = function for level l estimator
+% input:  SMCL     = function for level l estimator
 %         Eps      = vector of required accuracy
 %         sigma    = std deviation of the error of y - G
 %         data     = observations (values of y) vector
 %         x_data   = corresponding observation points
-%         k        = starting refinement level
-%         setType  = type of index set
-% .mat:   resn     = results of mimc with sn
-%         rere     = results of mimc with re
+% .mat:   re       = results of smc
+%         mse1     = mse of results with reference by ratio estimator
+%         mse2     = mse of results with reference by self-normalised increment estimator
 %         costs    = total costs of mimc
-%         mse_sn   = mse of self-normalised increments estimator
-%         mse_re   = mse of ratio estimator
-%         rLf      = actural finest level of refinement
+%         L        = level of refinement
 % ------------------------------------------------------------------ %
 function SMC(SMCL,Eps,sigma,data,x_data)
 % number of realisations
